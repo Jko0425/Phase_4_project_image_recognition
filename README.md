@@ -7,3 +7,6 @@ The data consisted of chest x-rays of pediatric patients with or without pneumon
 To create the neural network that will return the best accuracy without overfitting, we start with a simple neural network, with only one hidden layer, and observe how the addition or replacement of layers improves the metrics of the model. We graph the metrics of each epoch to observe if there are any overfitting while simutaneously observing the changes in metrics like accuracy. The best model is saved in the file "normal_pneumonia_with_augmented_data.keras". The saved model can be found [here](https://drive.google.com/file/d/1B8m1rsUGkOWHf19led_infZOE2MBhe6x/view?usp=drive_link) as it is several hundred MB.
 ### Results
 Running the test set through the model yielded these results:
+<p align="center">
+  <img src="https://github.com/Jko0425/Phase_4_project_image_recognition/blob/main/Images/Confusion%20Matrix.png" width="500" />
+</p>
