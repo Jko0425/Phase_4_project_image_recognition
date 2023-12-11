@@ -28,8 +28,12 @@ Data/
 │  ├─ BACTERIA
 │  ├─ VIRUS
 ├─ Chest_xray/
-│  ├─ NORMAL
-│  ├─ PNEUMONIA
+│  ├─ TEST
+│  |  ├─ NORMAL
+│  |  ├─ PNEUMONIA
+│  ├─ TRAIN
+│  |  ├─ NORMAL
+│  |  ├─ PNEUMONIA
 ```
 ## Table of Contents
 * [Addressing the shortage of doctors in the US](https://github.com/Jko0425/Phase_4_project_image_recognition/blob/main/README.md#Addressing-the-shortage-of-doctors-in-the-US)
