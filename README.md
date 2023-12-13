@@ -5,36 +5,6 @@
 
 By: Joshua Ko
 <br>Email: joshuawko@gmail.com
-## Repository Structure
-```bash
-Phase_4_project_image_recognition/
-├─ Image/
-│  ├─ Confusion matrix.png
-│  ├─ Metrics vs. Epoch.png
-├─ .gitignore
-├─ Image recognition of patients with pneumonia.ipynb
-├─ README.md
-├─ Using the Vgg16 model to separate pneumonia caused by virus and bacteria.ipynb
-├─ presentation.pdf
-```
-## Structure of data folder in Google Drive
-Link for data folder: https://drive.google.com/drive/folders/1LV79q3V7-VUANTYEe2hBgEfdSwolcagd?usp=drive_link
-```bash
-Data/
-├─ Augmented/
-│  ├─ NORMAL
-│  ├─ PNEUMONIA
-├─ Augmented_Virus/
-│  ├─ BACTERIA
-│  ├─ VIRUS
-├─ Chest_xray/
-│  ├─ TEST
-│  |  ├─ NORMAL
-│  |  ├─ PNEUMONIA
-│  ├─ TRAIN
-│  |  ├─ NORMAL
-│  |  ├─ PNEUMONIA
-```
 ## Table of Contents
 * [Addressing the shortage of doctors in the US](https://github.com/Jko0425/Phase_4_project_image_recognition/blob/main/README.md#Addressing-the-shortage-of-doctors-in-the-US)
 * [About the data](https://github.com/Jko0425/Phase_4_project_image_recognition/blob/main/README.md#About-the-data)
@@ -70,3 +40,33 @@ The results of the model differentiating between a normal and pneumonia lung per
 * __enhance patient-doctor relationships__
 * __reduce doctor burnouts__
 * __help develop skills of less experienced doctors__
+## Repository Structure
+```bash
+Phase_4_project_image_recognition/
+├─ Image/
+│  ├─ Confusion matrix.png
+│  ├─ Metrics vs. Epoch.png
+├─ .gitignore
+├─ Image recognition of patients with pneumonia.ipynb
+├─ README.md
+├─ Using the Vgg16 model to separate pneumonia caused by virus and bacteria.ipynb
+├─ presentation.pdf
+```
+## Structure of data folder in Google Drive
+Link for data folder: https://drive.google.com/drive/folders/1LV79q3V7-VUANTYEe2hBgEfdSwolcagd?usp=drive_link
+```bash
+Data/
+├─ Augmented/
+│  ├─ NORMAL
+│  ├─ PNEUMONIA
+├─ Augmented_Virus/
+│  ├─ BACTERIA
+│  ├─ VIRUS
+├─ Chest_xray/
+│  ├─ TEST
+│  |  ├─ NORMAL
+│  |  ├─ PNEUMONIA
+│  ├─ TRAIN
+│  |  ├─ NORMAL
+│  |  ├─ PNEUMONIA
+```
